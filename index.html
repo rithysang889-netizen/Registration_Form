@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to the</h1>
+            <h1>Student Registration Form</h1>
+            <h4>Please, Enter Your Information</h4>
+
+            <form action="register.php" method="POST">
+                <div class="Input_group">
+                    <input type="number" id="studentid" name="studentid" required placeholder=" ">
+                    <label for="student_id">Enter Your ID:</label>
+                    
+                </div>
+                <div class="Input_group">
+                    <input type="text" id="studentname" name="studentname" required placeholder=" ">
+                    <label for="name">Enter Your Full Name:</label>
+                </div>
+                <div class="Input_group">
+                    <input type="email" id="stu-email" name="stu-email" required placeholder=" ">
+                    <label for="email">Enter Your Email:</label>
+                </div>
+                <div class="checkbox">
+                    <label>Gender: </label>
+                    <input type="radio" id="male" name="gender" value="Male" required> Male
+                    <input type="radio" id="female" name="gender" value="Female" required> Female
+                </div>
+                <div class="Input_group">
+                    <span for="sut_date">Date of Birth:</span>
+                    <input type="date" id="date" name="date" required placeholder=" ">
+
+                </div>
+                <div class="Input_group">
+                    <input type="text" id="Department" name="Department" required placeholder=" ">
+                    <label for="Department">Enter Department:</label>
+                </div>
+                <div class="Input_group">
+                    <input type="number" id="phonenumber" name="phonenumber" required placeholder=" ">
+                    <label for="phone">Enter Phone Number:</label>
+                </div>
+                <div class="hero_btns">
+                    <button type="submit" class="btn">Grade</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
